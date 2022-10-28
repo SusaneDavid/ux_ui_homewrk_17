@@ -1,5 +1,6 @@
 nav {
-    height: 50px;
+    width: 73%;
+    padding: 1%;
   }
 
   .inline-block {
@@ -9,6 +10,9 @@ nav {
 
   ul {
     display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: auto;
 }
 
 li {
@@ -25,5 +29,22 @@ li > a{
     font-weight: 500;
     
 }
+.class {
+  width: 23%;
+  padding: 1%;
+}
 
+.heroing {
+  height: 600px;
+  padding: 25px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer {
+  height: 100px;
+  padding: 25px;
+  width: auto;
+  text-align: center;
+}
 
