@@ -1,0 +1,29 @@
+nav {
+    height: 50px;
+  }
+
+  .inline-block {
+    padding: 150px;
+    display: inline-block;
+  }
+
+  ul {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 3rem;
+    display: inline-block;
+    justify-items: right;
+}
+
+li > a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+
