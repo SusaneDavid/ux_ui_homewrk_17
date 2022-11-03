@@ -1,11 +1,12 @@
 nav {
     width: 73%;
     padding: 1%;
+    display: inline-block;
+    margin-top: 5px;
   }
 
-  .inline-block {
-    padding: 150px;
-    display: inline-block;
+  .inline_block {
+    padding: 50px;
   }
 
   ul {
@@ -35,14 +36,34 @@ li > a{
 }
 
 .heroing {
-  height: 600px;
+  height: 400px;
   padding: 25px;
   width: 500px;
   margin: 0 auto;
   text-align: center;
 }
+.about {
+  margin: 0 auto;
+  text-align: center;
+  height: 400px;
+}
+.h1 {
+  color: #FCECEC;
+  font-size: 100px;
+  height: 120px;
+}
+
+.button {
+  color: #FCECEC;
+  width: 171px;
+  height: 26px;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+}
+
 .footer {
-  height: 100px;
+  height: 300px;
   padding: 25px;
   width: auto;
   text-align: center;
