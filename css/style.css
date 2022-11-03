@@ -1,69 +1,73 @@
 nav {
     width: 73%;
-    padding: 1%;
-    display: inline-block;
-    margin-top: 5px;
+    float: right;
+    margin: 0;
   }
 
-  .inline_block {
-    padding: 50px;
+  .inline-block {
+    padding: 150px;
+    display: inline-block;
   }
 
   ul {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
     width: 50%;
-    margin-right: auto;
+    text-align: center;
 }
 
 li {
     list-style-type: none;
     margin-right: 3rem;
     display: inline-block;
-    justify-items: right;
 }
 
 li > a{
     text-decoration: none;
     color: #000000;
     font-size: 18px;
-    font-weight: 500;
-    
+    font-weight: 500;    
 }
 .class {
-  width: 23%;
+  width: 75%;
   padding: 1%;
 }
 
 .heroing {
-  height: 400px;
+  height: 650px;
   padding: 25px;
-  width: 500px;
+  width: 1000px;
   margin: 0 auto;
+}
+.mypic {
+  width: 350px;
+  height: 350px;
+  float: left;
+}
+.title {
+  height: 50px;
+  padding: 25px;
   text-align: center;
 }
-.about {
-  margin: 0 auto;
-  text-align: center;
-  height: 400px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
 }
-.h1 {
-  color: #FCECEC;
-  font-size: 100px;
-  height: 120px;
-}
-
 .button {
-  color: #FCECEC;
-  width: 171px;
-  height: 26px;
-  text-align: center;
+  background-color: #FCECEC;
   border: none;
-  border-radius: 7px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
 }
-
 .footer {
-  height: 300px;
+  height: 100px;
   padding: 25px;
   width: auto;
   text-align: center;
